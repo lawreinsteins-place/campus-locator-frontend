@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Login from './pages/login';
+import Register from './pages/register';
 import Home from './pages/Home';
-import Friends from './pages/Friends';
-import Profile from './pages/Profile';
+import Friends from './pages/friends';
+import Profile from './pages/profile';
 
 // Protected route wrapper
 function ProtectedRoute({ children }) {
