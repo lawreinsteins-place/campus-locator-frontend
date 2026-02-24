@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import CampusMap from '../components/CampusMap';
+import campusMap from '../components/CampusMap';
 import { campusLocations } from '../utils/campusLocations';
 import api from '../services/api';
 import { useNavigate } from 'react-router-dom';
